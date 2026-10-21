@@ -82,6 +82,6 @@ O último passo é testar a comunicação de duas vias (Leitura e Escrita) usand
 *Como enviar um comando do celular para o servidor:*
 1. Vá na aba **Publish** do aplicativo.
 2. No campo **Topic**, digite o tópico de comandos: `/TEF/vinheria/cmd`
-3. No campo **Message**, digite a instrução, por exemplo: `{"comando": "ligar_alerta"}`
+3. No campo **Message**, digite a instrução, por exemplo: `ligar / desligar`
 4. Clique em **Publish**. 
 5. **Teste Prático:** Se o ESP32 estiver programado para escutar esse tópico, ele processará o comando (ex: acendendo um LED na placa).
