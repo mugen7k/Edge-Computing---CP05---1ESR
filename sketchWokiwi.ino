@@ -7,7 +7,7 @@ const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 
 // IP do Servidor
-const char* mqtt_server = "3.135.234.101";
+const char* mqtt_server = "";
 
 // Mapeamento de Pinos
 #define DHTPIN 15
